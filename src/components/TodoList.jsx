@@ -1,5 +1,4 @@
 import TodoItem from "./TodoItem";
-
 const TodoList = ({ todoProps, handleChange,  delTodo }) => {
   return (
     <ul>
