@@ -7,7 +7,6 @@ const TodoItem = ({ itemProp, handleChanges, delTodo }) => {
       <input type="checkbox" checked={itemProp.completed} onChange={() => handleChanges(itemProp.id)} />
       <span className={styles.items}>{itemProp.title}
       </span>
-      <button>Edit</button>
       <button onClick={() => delTodo(itemProp.id)}>Delete</button>
     </div>
   </li>)

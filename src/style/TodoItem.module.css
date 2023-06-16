@@ -41,13 +41,6 @@
   margin-left: 7px;
   border-radius: 5px;
   padding: .4rem;
-}
-
-.content button:nth-child(even) {
   color: #f0efef;
   background-color: red;
-}
-
-.content button:nth-child(odd) {
-  color: green;
 }
