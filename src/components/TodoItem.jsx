@@ -1,13 +1,14 @@
 import styles from '../style/TodoItem.module.css';
 
-const TodoItem = ({ itemProp, handleChange, delTodo }) => {
+const TodoItem = ({ itemProp, handleChanges, delTodo }) => {
 
   return (<li className={styles.item}>
     <div className={styles.content}>
-      <input type="checkbox" checked={itemProp.completed} onChange={() => handleChange(itemProp.id)} />
+      <input type="checkbox" checked={itemProp.completed} onChange={() => handleChanges(itemProp.id)} />
+      <span className={styles.items}>{itemProp.title}
+      </span>
       <button>Edit</button>
       <button onClick={() => delTodo(itemProp.id)}>Delete</button>
-      {itemProp.title}
     </div>
   </li>)
 };
