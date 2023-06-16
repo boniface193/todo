@@ -1,11 +1,12 @@
 import Header from "./Header";
 import TodoLogic from "./TodoLogic";
+
 const TodoApp = () => {
   return (
     <div className="wrapper">
       <div className="todos">
-      <Header />
-      <TodoLogic />
+        <Header />
+        <TodoLogic />
       </div>
     </div>
 

@@ -1,10 +1,9 @@
 import TodoItem from "./TodoItem";
-
-const TodoList = ({ todoProps, handleChange,  delTodo }) => {
+const TodoList = ({ todoProps, handleChange, delTodo }) => {
   return (
-    <ul>
+    <ul className="card">
       {todoProps.map((todo) => (
-        <TodoItem key={todo.id} itemProp={todo} handleChange={handleChange} delTodo={delTodo}/>
+        <TodoItem key={todo.id} itemProp={todo} handleChanges={handleChange} delTodo={delTodo} />
       ))}
     </ul>
   )
