@@ -1,4 +1,8 @@
 import { useState } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faCirclePlus
+} from "@fortawesome/free-solid-svg-icons";
 
 const InputTodo = ({ addTodoItem }) => {
   const [title, setTitle] = useState('');
@@ -23,7 +27,7 @@ const InputTodo = ({ addTodoItem }) => {
     <>
       <form onSubmit={handleSubmit} className="form-container">
         <input type="text" className="input-text" placeholder="Add Todo..." value={title} onChange={handleChange} />
-        <button className="input-submit">Submit</button>
+        <FontAwesomeIcon className="input-submit" icon={faCirclePlus} />
       </form>
       <span className="submit-warning">{message}</span>
     </>
