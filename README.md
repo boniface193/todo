@@ -1,70 +1,171 @@
-# Getting Started with Create React App
+  # my-portfolio
+  <a name="readme-top"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  <div align="center">
 
-## Available Scripts
+    <br/>
 
-In the project directory, you can run:
+    <h3><b>Todo Readme</b></h3>
 
-### `npm start`
+  </div>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+  <!-- TABLE OF CONTENTS -->
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  # 📗 Table of Contents
 
-### `npm test`
+  - [📖 About the Project](#about-project)
+    - [🛠 Built With](#built-with)
+      - [Tech Stack](#tech-stack)
+      - [Key Features](#key-features)
+  - [💻 Getting Started](#getting-started)
+    - [Setup](#setup)
+    - [Prerequisites](#prerequisites)
+    - [Install](#install)
+  - [👥 Authors](#authors)
+  - [🔭 Future Features](#future-features)
+  - [🤝 Contributing](#contributing)
+  - [⭐️ Show your support](#support)
+  - [📝 License](#license)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  <!-- PROJECT DESCRIPTION -->
 
-### `npm run build`
+  # 📖 [Todo] <a name="about-project"></a>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  > it has to do with a collection of data and store it in localstorage
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+  **[Todo]**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  ## 🛠 Built With <a name="built-with"></a>
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+  ### Tech Stack <a name="tech-stack"></a>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+  > this project was written in javascript using react library
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+  <details>
+  jsx
+  </details>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+  <details>
+  css
+  </details>
 
-## Learn More
+  <details>
+  react
+  </details>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+  <!-- Features -->
+  ### Key Features <a name="key-features"></a>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+  > preserve data in the browser.
 
-### Code Splitting
+  - When the user changes the content of any input field, the data is saved to the local storage
+  - When the user loads the page, if there is any data in the local storage the input fields are pre-filled with this data.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+  <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Analyzing the Bundle Size
+  <!-- GETTING STARTED -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+  ## 💻 Getting Started <a name="getting-started"></a>
 
-### Making a Progressive Web App
+  > Describe how a new developer could make use of your project.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+  To get a local copy up and running, follow these steps.
 
-### Advanced Configuration
+  git clone https://github.com/boniface193/todo.git
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+  cd todo
 
-### Deployment
+  npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+  ### Prerequisites
 
-### `npm run build` fails to minify
+  In order to run this project you need:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  Node js
+
+  <!--
+  Example command:
+
+  ```sh
+  gem install rails
+  ```
+  -->
+
+  ### Setup
+
+  Clone this repository to your desired folder:
+
+  <!--
+  Example commands:
+
+  ```sh
+    cd my-folder
+    git clone git@github.com:myaccount/my-project.git
+  ```
+  --->
+
+  ### Install
+
+  Install this project with:
+
+  npm install
+
+  <!--
+  Example command:
+
+  ```sh
+    cd my-project
+    gem install
+  ```
+  --->
+
+  <!-- AUTHORS -->
+
+  ## 👥 Authors <a name="authors"></a>
+
+  > 
+
+  👤 **Author1**
+  Ikechukwu
+
+  - GitHub: [@boniface193](https://github.com/boniface193)
+  - Twitter: [@bidtechnologies](https://twitter.com/bidtechnologies)
+  - LinkedIn: [boniface-ikechukwu](https://www.linkedin.com/in/boniface-ikechukwu/)
+
+  <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+  <!-- FUTURE FEATURES -->
+
+  ## 🔭 Future Features <a name="future-features"></a>
+
+  > Client side validation to validate contact form
+
+  - [ ] When the user submits the form, you validate it.
+  - [ ] If the validation is not OK, you show an error message to the user near the submit button informing them of the error and the form is not sent.
+
+  > Preserve data in the browser
+
+  - [ ] When the user changes the content of any input field, the data is saved to the local storage.
+  - [ ] When the user loads the page, if there is any data in the local storage the input fields are pre-filled with this data.
+
+  <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+  <!-- CONTRIBUTING -->
+
+  ## 🤝 Contributing <a name="contributing"></a>
+
+  Contributions, issues, and feature requests are welcome!
+
+  Feel free to check the [issues page](../../issues/).
+
+  <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+  <!-- LICENSE -->
+
+  ## 📝 License <a name="license"></a>
+
+  This project is [MIT](./MIT.md) licensed.
+
+  <p align="right">(<a href="#readme-top">back to top</a>)</p>

@@ -21,19 +21,42 @@
   border-radius: 8px;
   padding: 4rem;
   margin: 0 auto;
+  width: 450px;
   box-shadow: 0px 4px 14px 0px rgba(70, 70, 70, 0.38);
 }
 
 @media (max-width: 556px) {
   .todos {
     padding: 3rem 1rem;
+    margin: auto 10px;
+    width: 100%;
   }
 }
 
 .card {
   height: 40vh;
   margin-top: 2rem;
-  overflow: hidden;
+  overflow-y: scroll;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: inherit;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
 
 .form-container {
@@ -41,6 +64,7 @@
   border-radius: calc(0.1 * 100px);
   box-shadow: 0px 4px 14px 0px rgba(70, 70, 70, 0.38);
   justify-content: space-around;
+  align-items: center;
   background: #fff;
   font-size: 1rem;
 }
@@ -50,7 +74,9 @@
   padding-left: 15px;
   border-radius: calc(0.5 * 100px);
   font-size: 1rem;
-  width: 80%;
+  height: 45px;
+  outline: none;
+  border: none;
 }
 
 .input-text::placeholder {
@@ -59,21 +85,14 @@
 
 .input-submit {
   background: transparent;
-  color: #5b5b5b;
-  text-transform: capitalize;
+  color: gray;
   cursor: pointer;
-  font-weight: 600;
+  font-weight: 200;
   margin: 0px 20px;
+  font-size: 19px;
 
 }
 
-.input-text,
-.input-submit {
-  height: 45px;
-  outline: none;
-  border: none;
-
-}
 
 .submit-warning {
   font-size: 13px;
